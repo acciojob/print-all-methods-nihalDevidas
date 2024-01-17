@@ -1,6 +1,7 @@
 //your JS code here. If required.
 function allMethods() {
-  //write your code here
+	let op = [];
+  return Object.getOwnPropertyNames(Math).filter((key)=>typeof(Math[key]) == 'function')
 }
 
 alert(allMethods());
